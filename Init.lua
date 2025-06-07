@@ -4,6 +4,9 @@ if _G.ScriptUrl then
 end
 local game_map = {
     [7436755782] = function() -- setclipboard(game.GameId) this how to get game id
+        if getgenv().ConfigsReroll then
+            return loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/ej5yimioj491bp6wvjfijccqq1vz18sa.lua"))()
+        end
         return loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/98vt13x1h979yxngcvxbkjsq8hsw9rpw.lua"))()
     end,
 }
