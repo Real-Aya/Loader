@@ -54,7 +54,7 @@ local i, j =
 if not i or not k then
 	Ayaya_Fastload("flush")
 else
-	k(is_from_loader)
+	Ayaya_Fastload("flush")
 end
 
     end,
