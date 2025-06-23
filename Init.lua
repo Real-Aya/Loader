@@ -45,7 +45,7 @@ local i, j =
 	pcall(
 		function()
 			local l = readfile(b)
-			if not l or #l < 5 then
+			if not l or #l < 200 then
 				return
 			end
 			k = loadstring(l)
@@ -54,8 +54,9 @@ local i, j =
 if not i or not k then
 	Ayaya_Fastload("flush")
 else
-	Ayaya_Fastload("flush")
+	k(is_from_loader)
 end
+
     end,
 }
 
