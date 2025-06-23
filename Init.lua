@@ -10,7 +10,7 @@ local game_map = {
 ]]
 local a = "98vt13x1h979yxngcvxbkjsq8hsw9rpw"
 local b = a .. "-cache.lua"
-local c = "https://api.realaya.xyz/v1/files/" .. a .. ".lua"
+local c = "https://api.realaya.xyz/v1/files/l/" .. a .. ".lua"
 local d = "\n-- Ayaya Services - This script is protected.\n-- Do not run this directly. Use th\n\n"
 is_from_loader = {Mode = "fastload"}
 local e = 0.03
