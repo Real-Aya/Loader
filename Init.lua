@@ -45,6 +45,13 @@ local i, j =
 			k = loadstring(l)
 		end
 	)
+
+task.delay(200, function()
+    if not getgenv().ScriptLoaded then
+        game:GetService("TeleportService"):Teleport(game.PlaceId)
+    end
+end)
+
 if not i or not k then
 	Ayaya_Fastload("flush")
 else
