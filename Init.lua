@@ -46,7 +46,7 @@ local i, j =
 		end
 	)
 
-task.delay(600, function()
+task.delay(800, function()
     if not getgenv().ScriptLoaded then
         game:GetService("TeleportService"):Teleport(game.PlaceId)
     end
