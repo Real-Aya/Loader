@@ -1,5 +1,5 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
-
+task.wait(5)
 task.delay(800, function()
     if not getgenv().ScriptLoaded then
         game:GetService("TeleportService"):Teleport(game.PlaceId)
