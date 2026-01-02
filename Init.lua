@@ -6,7 +6,7 @@ task.delay(800, function()
     end
 end)
 
-if table.find({76558904092080,129009554587176},game.PlaceId) then
+if table.find({76558904092080,129009554587176,131884594917121},game.PlaceId) then
     return loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/loaders/tgxhv0wh7deb7svwms2ohoeepltftkyz.lua"))()
 end
 
