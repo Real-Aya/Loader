@@ -7,7 +7,7 @@ task.delay(800, function()
 end)
 
 if table.find({76558904092080,129009554587176,131884594917121},game.PlaceId) then
-    return loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/loaders/tgxhv0wh7deb7svwms2ohoeepltftkyz.lua"))()
+    return loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/tgxhv0wh7deb7svwms2ohoeepltftkyz.lua"))()
 end
 
 -- This file was protected using Luraph Obfuscator v14.4.2 [https://lura.ph/]
